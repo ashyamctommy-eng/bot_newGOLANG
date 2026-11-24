@@ -538,7 +538,7 @@ func formatWelcomeCard(uid int64, username string, proxyCount int) string {
 		em(emojiUser, "👤") + " <b>User</b> → @" + username + "\n" +
 		em(emojiStar, "⭐") + " <b>Bot</b> → CC Checker\n" +
 		em(emojiCalendar, "📅") + " <b>Proxies</b> → " + strconv.Itoa(proxyCount) + " loaded\n" +
-		em(emojiLightning, "⚡") + " <b>Owner</b> → @aldorsi\n" +
+		em(emojiLightning, "⚡") + " <b>Owner</b> → @Poriotke\n" +
 		"━━━━━━━━━━━━━━━━━━━━━━"
 }
 
